@@ -1,0 +1,7 @@
+Q2.5
+
+I expect mirror and rotation errors to increase because digit appearance changes, even though Figure 1 contains motion in all directions. With A’s 8-pixel per-axis reach and median speed 3.32, I expect the strongest degradation at 3× (9.95 pixels/frame), with possible 2× degradation (6.64) from unfamiliar motion; speed magnitude alone is not a hard per-axis limit.
+
+Q2.11
+
+I expect B to reduce mirror and rotation failures through symmetry augmentation. C should improve 2×/3× forecasts through speed augmentation, but cannot increase architectural reach. D should handle faster motion better than C through larger reach, although blur and shape errors may remain.
